@@ -32,16 +32,15 @@ document.addEventListener('DOMContentLoaded', () => {
             const newMessageDiv = document.createElement('div');
             newMessageDiv.classList.add('message');
             newMessageDiv.innerHTML = `
-                <span class="username"><span class="math-inline">\{username\}</span\>
-<span class="text">{messageText}</span>
-`;
-messagesDiv.appendChild(newMessageDiv);
+                <span class="username">${username}</span>
+                <span class="text">${messageText}</span>
+            `;
+            messagesDiv.appendChild(newMessageDiv);
 
- messagesDiv.scrollTop = messagesDiv.scrollHeight; // Scroll to bottom
+            messagesDiv.scrollTop = messagesDiv.scrollHeight; // Scroll to bottom
 
             messageInput.value = ''; // Clear message input
             localStorage.setItem('chatUsername', username); // Save username
         }
     });
 });
-```
