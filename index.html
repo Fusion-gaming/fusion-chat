@@ -6,6 +6,9 @@
     <title>Fusion Chat Room</title>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="chat-styles.css">
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-firestore-compat.js"></script>
     <script src="chat-script.js" defer></script>
 </head>
 <body>
@@ -18,8 +21,8 @@
         <main class="chat-main">
             <div class="messages" id="messages">
                 <div class="message-placeholder">
-                    <p>Welcome to Fusion Chat! Messages will appear here.</p>
-                    <p><em>(Connect to Firebase to enable sending/receiving messages)</em></p>
+                    <p>Welcome to Fusion Chat! Type your name and message to start.</p>
+                    <p><em>(Messages are saved and shared in real-time)</em></p>
                 </div>
             </div>
 
