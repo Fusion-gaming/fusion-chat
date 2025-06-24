@@ -1,7 +1,13 @@
 // chat-script.js
 
-// This is where your Firebase initialization and chat logic will go.
-// We will fill this in after you set up your Firebase project.
+const firebaseConfig = {
+  apiKey: "AIzaSyD...",
+  authDomain: "your-project-id.firebaseapp.com",
+  projectId: "your-project-id",
+  storageBucket: "your-project-id.appspot.com",
+  messagingSenderId: "1234567890",
+  appId: "1:1234567890:web:abcdef1234567890"
+};
 
 document.addEventListener('DOMContentLoaded', () => {
     console.log("Chat script loaded. Ready for Firebase integration!");
