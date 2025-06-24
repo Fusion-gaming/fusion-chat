@@ -1,12 +1,13 @@
 // chat-script.js
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD...",
-  authDomain: "your-project-id.firebaseapp.com",
-  projectId: "your-project-id",
-  storageBucket: "your-project-id.appspot.com",
-  messagingSenderId: "1234567890",
-  appId: "1:1234567890:web:abcdef1234567890"
+  apiKey: "AIzaSyAuaEVKu-LJpRiD-FuSFmY2JURgxhbol3c",
+  authDomain: "shipspace-cee83.firebaseapp.com",
+  projectId: "shipspace-cee83",
+  storageBucket: "shipspace-cee83.firebasestorage.app",
+  messagingSenderId: "701760005847",
+  appId: "1:701760005847:web:ce6977a9b05b2383b2f292",
+  measurementId: "G-4RPTWZFCVZ"
 };
 
 document.addEventListener('DOMContentLoaded', () => {
